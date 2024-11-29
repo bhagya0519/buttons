@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(235, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.main{
+    background: white;
+    padding: 35px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 400px;
+    padding-top: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bill{
+    display: grid;
+    margin:auto;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 4px;
+    width: 380px;
+}
+#tip{
+    display: grid;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 4px;
+    width: 380px;
+}
+#calculate{
+    background: rgb(116, 226, 116);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+    margin-right: 2p;
+    border-radius: 4px;
+    width: 396px;
+}
+#calculate:hover{
+    transform: scale(1.01);
+}
+#total{
+    padding-top: 200px;
+}
