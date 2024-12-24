@@ -1,0 +1,30 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ddd3e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main App Container */
+  .app {
+    text-align: center;
+    background: #b8abf0;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .btn{
+    background-color: #afa5db;
+    margin-bottom: 10px;
+  }
+
+  .btn:hover{
+    background-color: #696191;
+  }
